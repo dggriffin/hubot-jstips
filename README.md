@@ -1,6 +1,6 @@
 # hubot-jstips
 
-A hubot script that grabs and displays the latest jstip.
+A hubot script that grabs and displays the latest jstip from https://github.com/loverajoel/jstips.
 
 See [`src/jstips.coffee`](src/jstips.coffee) for full documentation.
 
