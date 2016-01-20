@@ -1,4 +1,6 @@
 # hubot-jstips
+<a href="https://travis-ci.org/dggriffin/mitto"><img alt="Travis Status" src="https://travis-ci.org/dggriffin/hubot-jstips.svg?branch=master"></a>
+
 
 A hubot script that grabs and displays the latest jstip from https://github.com/loverajoel/jstips.
 
