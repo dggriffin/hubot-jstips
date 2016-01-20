@@ -13,5 +13,5 @@ describe 'jstips', ->
     require('../src/jstips')(@robot)
 
   it 'registers a respond listener', ->
-    expect(@robot.respond).to.have.been.calledWith(/jstip/)
+    expect(@robot.respond).to.have.been.calledWith(/jstip/i)
 
