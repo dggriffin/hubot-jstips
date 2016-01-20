@@ -1,7 +1,7 @@
 {
   "name": "hubot-jstips",
   "description": "A hubot script that grabs and displays the latest jstip.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Greyson Griffin <donggriffin@gmail.com>",
   "license": "MIT",
   "keywords": [
