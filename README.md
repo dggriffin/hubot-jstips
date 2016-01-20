@@ -2,7 +2,7 @@
 
 A hubot script that grabs and displays the latest jstip.
 
-See [`src/jstips.coffee`](src/hobbsbrook-cafe.coffee) for full documentation.
+See [`src/jstips.coffee`](src/jstips.coffee) for full documentation.
 
 ## Installation
 
