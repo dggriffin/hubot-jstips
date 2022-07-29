@@ -28,7 +28,7 @@ hubot>>
 2016-01-18 by pklinger
 
 Today's tip is about performance. Ever came across the double tilde ~~ operator? It is sometimes also called the double NOT bitwise operator. You can use it as a faster substitute for Math.floor(). Why is that?
-One bitwise shift ~ transforms the 32 bit converted input into -(input+1). The double bitwise shift therefore transforms the input into -(-(input + 1)+1) making it a great tool to round towards 0. For numeric input, it therefore mimics the Math.ceil() for negative and Math.floor() for positive input. On failure, 0 is being returned, which might come in handy sometimes instead of Math.floor() return value NaN on failure.
+One bitwise shift ~ transforms the 32-bit converted input into -(input+1). The double bitwise shift therefore transforms the input into -(-(input + 1)+1) making it a great tool to round towards 0. For numeric input, it therefore mimics the Math.ceil() for negative and Math.floor() for positive input. On failure, 0 is being returned, which might come in handy sometimes instead of Math.floor() return value NaN on failure.
 // single ~
 console.log(~1337)    // -1338
 
